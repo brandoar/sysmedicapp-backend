@@ -82,7 +82,7 @@ class DialogflowController extends Controller
         
 
         // Devuelve una respuesta
-        return response()->json(['fulfillmentText' => 'Respuesta desde Laravel']);
+        return response()->json(['fulfillmentText' => 'Tiene una cita Jueves 29 a las 8:40']);
     }
 
     public function devConsultaCitaMedica(Request $request)
